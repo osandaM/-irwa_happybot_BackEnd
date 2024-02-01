@@ -1,0 +1,114 @@
+{"intents" :[
+    {  "tag" : "greeting",
+       "patterns" : [  "Is anyone there?","Hi", "Hello",  "is anyone available", "can I talk to someone","Hey"],
+       "responses" : ["Hello! How can I assist you today?", "Hi there, How may I be of service to you?", "Hello! How can I help you?", "Hello! How can I assist you today?"]
+    },
+
+    {
+       "tag" : "goodbye",
+       "patterns" : ["Bye", "See you later", "Good Bye", "Nice chatting to you, bye", "Till next time"],
+       "responses" : ["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "I appreciate your assistance", "You've been very helpful"],
+      "responses": ["You're welcome! Is there anything else I can assist you with?", "It was my pleasure helping you. Do you have any more questions?", "Glad I could assist. How else can I help you today?"]
+    },
+    
+
+     {
+        "tag" : "noanswer",
+        "patterns" : [],
+        "responses": ["Sorry, can't understand you", "PLease give me more info", "Not sure I understand"]
+     },
+
+     {
+      "tag": "options",
+      "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "Tell me your capabilities", "What services do you offer?"],
+      "responses": ["I can assist you with a wide range of services, including providing product details, processing payments, managing your account, tracking orders, and much more. Please feel free to ask me anything specific, and I'll do my best to assist you."]
+    },
+    
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "I am having trouble making a payment",
+        "I can't make a payment",
+        "Payment isn't going through",
+        "Payment issues",
+        "Payment problem",
+        "I am not able to pay"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're facing payment issues. Let's try to resolve this. Please check your bank account balance to ensure you have sufficient funds. If the problem persists, you can also try using a different payment method or contact your bank for further assistance.",
+        "Having trouble making a payment can be frustrating. First, please verify that your bank account has enough funds to cover the payment. If the issue continues, consider using an alternative payment method or reaching out to your bank for support.",
+        "Payment problems can be tricky. To begin, please double-check your bank account balance to ensure you have the necessary funds. If that's not the issue, try using another payment method or contact your bank for additional guidance."
+      ]
+    },
+
+    {
+      "tag": "account",
+      "patterns": [
+        "I can't access my account",
+        "I'm unable to log in",
+        "I can't access my account online",
+        "Account login issues",
+        "Problems with my account",
+        "I am not able to login"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're having trouble accessing your account. First, please make sure your internet connection is stable. If your connection is fine, double-check your username and password. If you're still unable to access your account, you can reset your password or contact our support team for assistance.",
+        "Having difficulty accessing your account can be frustrating. Start by checking your internet connection. If that's not the issue, review your login credentials (username and password) for accuracy. If you continue to experience problems, consider resetting your password or reaching out to our support team for further help."
+      ]
+    },
+    
+
+    {
+      "tag": "name",
+      "patterns": ["What is your name", "What should I call you", "Who are you"],
+      "responses": ["You can call me HappyBoy", "I am HappyBoy, your virtual assistant", "I'm HappyBoy, your friendly chatbot"]
+    },
+    
+     {
+       "tag" : "hours",
+       "patterns": ["What are your hours?", "When are you open?", "Hours of operation"],
+       "responses": ["We are open 7am-4am Monday-Friday and 8am-12am Saturday-Sunday"]
+
+     },
+     {
+      "tag": "product_info",
+      "patterns": [
+        "Tell me about *",
+        "Give me info about *",
+        "Product details for *",
+        "give information about *",
+        "What can you tell me about *",
+        "I'd like to know more about *",
+        "Please provide information for *",
+        "Can you describe *",
+        "Details of *",
+        "Could you share details for *"
+      ],
+      "responses": []
+    },
+    
+    {
+      "tag": "recommend_product",
+      "patterns": [
+        "What do you recommend for *",
+        "Any recommendations for *",
+        "Suggest products for *",
+        "Can you recommend a *",
+        "What are your top picks for *",
+        "What are the latest arrivals for *",
+        "Show me new products in the category of *",
+        "I'm looking for new items in * category",
+        "What's hot in the world of *",
+        "Find the best * for me"
+      ],
+      "responses": []
+    }
+    
+
+]}
